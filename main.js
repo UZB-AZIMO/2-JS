@@ -58,7 +58,7 @@
 //           console.log(result);
 //         }
 //         {
-//             let result  = numbers.filter((son) => son == false)
+//             let result  = numbers.filter((son) => son == true)
 //             console.log( result );
 //         }
 //     }
@@ -117,18 +117,18 @@
 
 // {8-masala
 
-{
-function foo(a, b){
-            let sum = []
-            for(let i = a; i < b; i++){
-                if(i % 2 === 0){
-                    sum.push(i)
-                }
-            }
-            return sum
-        }
-        console.log(foo(2, 9));
-    }
+// {
+// function foo(a, b){
+//             let sum = []
+//             for(let i = a; i < b; i++){
+//                 if(i % 2 === 0){
+//                     sum.push(i)
+//                 }
+//             }
+//             return sum
+//         }
+//         console.log(foo(2, 9));
+//     }
 
 // }
 
@@ -147,8 +147,6 @@ function foo(a, b){
 // }
 
 // {10-masala
-
-
 //  {
 //     function repeatString(str, n) {
 //         return str.repeat(n).trim();
@@ -158,14 +156,16 @@ function foo(a, b){
 
 // }
 
+// {11-masala
 
-
-
-
-
- 
-
-
+// {
+// function foo(array){
+//             array.reverse()
+//             console.log(array);
+//         }
+//         console.log(foo([1, 2, 3]));
+//     }
+    
 // {12-masala
 
 // {
